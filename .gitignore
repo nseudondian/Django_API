@@ -1,0 +1,19 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore the virtual environment directory
+venv/
+
+# Ignore local settings file
+local_settings.py
+
+# Ignore database and migration files
+db.sqlite3
+/migrations/
+
+# Ignore logs and other dynamically generated files
+*.log
+*.pot
+*.pyc
+*.bak
+*.swp
